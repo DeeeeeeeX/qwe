@@ -1,0 +1,70 @@
+body {
+    line-height: 1.5;
+}
+
+#shapka {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.line {
+    font-family: Tahoma;
+    font: Arial;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: rgb(184, 197, 197);
+    box-shadow: 0px 0px 200px rgb(173, 187, 185);
+    border-radius: 10px;
+}
+
+#main {
+    background:rgb(173, 187, 185) url(../img/pattern.png);
+}
+
+.topmenu {
+    margin-left: 5%;
+}
+
+h2 {
+    display: inline;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: left;
+}
+.reg {
+    text-align: left;
+}
+
+.tablica{
+    border: 3px dotted rgb(79, 64, 64);
+    font-size: 18px;
+
+}
+
+#list {
+    text-align: left;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+ol {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.img {
+    display: inline-block;
+}
+.podpis {
+    text-align: center;
+}
